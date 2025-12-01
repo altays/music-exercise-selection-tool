@@ -7,7 +7,7 @@ const inputName = process.argv[3]
 
 if (processRoute=="a"){
     // console.log('route a...')
-    utility.readFile(inputName)
+    utility.randomExercise(inputName)
 
 } else if (processRoute=="b") {
     console.log('route b...')
