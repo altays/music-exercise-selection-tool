@@ -1,14 +1,5 @@
 [
-    {"topic":"new harmonies"},
-    {"topic":""},
-    {"topic":""},
-    {"topic":""},
-    {"topic":"new voicings"},
-    {"topic":""},
-    {"topic":""},
-    {"topic":""},
-    {"topic":""},
-    {"topic":""},
-    {"topic":"finger independance"},
-    {"topic":""}
+    {"name":"new harmonies, familiar voicings"},
+    {"name":"new voicings, familiar harmonies"},
+    {"name":"finger independance"}
 ]

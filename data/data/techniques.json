@@ -1,12 +1,11 @@
 [
     {"name":"tapping - both hands one melody/arpeggio"},
     {"name":"tapping - with chords"},
-    {"name":"hybrid picking"},
-    {"name":""},
-    {"name":""},
-    {"name":"alternate / cross picking"},
-    {"name":""},
-    {"name":""},
-    {"name":"finger picking"},
-    {"name":""}
+    {"name":"tapping - separate melody / accomp"},
+    {"name":"hybrid picking - bass / chords"},
+    {"name":"hybrid picking - bass / arpeggios"},
+    {"name":"alternate / cross picking - tremolo"},
+    {"name":"alternate / cross picking - arpeggiation"},
+    {"name":"alternate / cross picking - strumming"},
+    {"name":"finger picking"}
 ]
