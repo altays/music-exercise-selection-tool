@@ -1,12 +1,13 @@
 const process = require('process');
-const utility = require('./scripts/helper')
-const specific = require('./scripts/specific')
+const helper = require('./scripts/helper')
+const utility = require('./scripts/utility')
 
 const processRoute = process.argv[2]
 const inputName = process.argv[3]
 
 if (processRoute=="a"){
-    console.log('route a...')
+    // console.log('route a...')
+    utility.readFile(inputName)
 
 } else if (processRoute=="b") {
     console.log('route b...')

@@ -8,17 +8,11 @@ url="https://poets.org/poem-a-day"
 if [ "$1" = "a" ] 
 then
     echo "route a"
-    node index.js a
+    node index.js a data/books/stick-control-gls.json
 elif [ "$1" = "ct" ]
 then
     echo "route b"
     node index.js b
-
-elif [ "$1" = "i" ]
-then
-    # echo "route reconstruct" 
-    mkdir data data/analyzed data/analyzed/words data/analyzed/sentences data/processed data/rawText
-    touch test.js
 else
     echo "Please indicate a valid route."
 fi

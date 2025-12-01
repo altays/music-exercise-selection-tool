@@ -1,14 +1,11 @@
-const fs = require('node:fs/promises');
 
-async function readwrite (filePath, outputFileName) {
- 
-    try {
-        const data = await fs.readFile(filePath, { encoding: 'utf8' });
-        await fs.writeFile(outputFileName,data);
-    } 
-    catch (error){
-        console.error(error)
-    }
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
 }
 
-module.exports = { readwrite }
+function getRandomIntStartOne(max) {
+    return Math.floor(Math.random() * max-1)+1;
+}
+
+
+module.exports = { getRandomInt, getRandomIntStartOne }
