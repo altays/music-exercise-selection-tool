@@ -8,11 +8,11 @@ url="https://poets.org/poem-a-day"
 if [ "$1" = "a" ] 
 then
     echo "route a"
-    node main.js a
+    node index.js a
 elif [ "$1" = "ct" ]
 then
     echo "route b"
-    node main.js b
+    node index.js b
 
 elif [ "$1" = "i" ]
 then
