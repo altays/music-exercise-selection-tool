@@ -8,8 +8,9 @@ const inputName = process.argv[3]
 if (processRoute=="a"){
     // console.log('route a...')
     utility.readAndPrintRandomExercise(inputName)
-    utility.readAndPrintRandom('./data/data/techniques.json')
-    utility.readAndPrintRandom('./data/data/topics.json')
+    utility.readAndPrintRandom('./data/parameters/techniques.json')
+    utility.readAndPrintRandom('./data/parameters/topics.json')
+    utility.readAndPrintRandom('./data/parameters/instruments.json')
 
 } else if (processRoute=="b") {
     console.log('route b...')

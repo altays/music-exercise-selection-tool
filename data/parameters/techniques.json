@@ -7,5 +7,6 @@
     {"name":"alternate / cross picking - tremolo"},
     {"name":"alternate / cross picking - arpeggiation"},
     {"name":"alternate / cross picking - strumming"},
-    {"name":"finger picking"}
+    {"name":"finger picking - arpeggio"},
+    {"name":"finger picking - bass/chord"}
 ]
